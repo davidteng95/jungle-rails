@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   get 'about', to: 'about#index'
 
   get '/signup', to: 'users#new'
-  get '/users', to: 'users#create'
-
+  post '/users', to: 'users#create'
+  
   get '/login', to: 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
