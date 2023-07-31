@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 
   get 'about', to: 'about#index'
 
+  get'/signup', to: 'users#new'
+  get'/users', to: 'user#create'
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:show, :index]
 
