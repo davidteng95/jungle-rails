@@ -2,7 +2,7 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
-A user can browse, view, select, and purchase products. An admin can create new products and new categories as desired. Products that are out of stock will display a "Sold Out!" badge.
+A user can browse, view, select, and purchase products. An admin can create new products and new categories as desired. Products that are out of stock will display a "Sold Out" badge.
 
 ## Screenshots
 
